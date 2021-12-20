@@ -20,9 +20,7 @@ class Api::V1::PhoneNumbersController < ApplicationController
   # Creates phone numbers from xlsx file
   # POST
   def create
-    if params[:file].present?
-      PhoneNumber.import numbers_from(params[:file].path), ignore: true
-    end
+    PhoneNumber.import numbers_from(params[:file].path), ignore: true if params[:file].present?
   end
 
   private

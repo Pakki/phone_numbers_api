@@ -1,9 +1,9 @@
-## Phone numbers API
+## Phone numbers DB API
 
 #### Requiments:
 
-- Ruby version 3.0.2
-- Ruby on Rails version 7.0
+- Ruby version 3.2.2
+- Ruby on Rails version 7.0.7
 
 #### How it works:
 

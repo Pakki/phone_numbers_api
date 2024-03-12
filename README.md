@@ -3,7 +3,7 @@
 #### Requiments:
 
 - Ruby version 3.2.2
-- Ruby on Rails version 7.0.7
+- Ruby on Rails version 7.1.3.2
 
 #### How it works:
 
